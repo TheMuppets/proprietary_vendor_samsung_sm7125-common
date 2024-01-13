@@ -69,10 +69,10 @@ android_app_import {
 }
 
 dex_import {
-       name: "audiosphere",
-       owner: "samsung",
-       jars: ["proprietary/system_ext/framework/audiosphere.jar"],
-       system_ext_specific: true,
+	name: "audiosphere",
+	owner: "samsung",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
