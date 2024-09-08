@@ -1481,27 +1481,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libOmxBlackBar",
-	owner: "samsung",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libOmxBlackBar.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libOpenCL", "libion", "libQSEEComAPI", "libc++", "libc", "libm", "libdl", ],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libOmxBlackBar.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libOpenCL", "libion", "libQSEEComAPI", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libOpenCL",
 	owner: "samsung",
 	strip: {
