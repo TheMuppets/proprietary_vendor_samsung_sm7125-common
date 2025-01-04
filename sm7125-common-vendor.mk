@@ -229,14 +229,7 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
     libOmxBlackBar \
-    libOmxEvrcDec \
-    libOmxQcelp13Dec \
-    libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
     libSecureUILib \
@@ -395,7 +388,6 @@ PRODUCT_PACKAGES += \
     libssc \
     libssc_default_listener \
     libssd \
-    libstagefright_soft_qtiflacdec \
     libswregistrationalgo \
     libsynergy_loc_api \
     libsysmon_cdsp_skel \
@@ -456,7 +448,6 @@ PRODUCT_PACKAGES += \
     com.samsung.node.uniplugin_preview \
     libMOTION \
     audio.primary.atoll \
-    libOmxDsdDec \
     lib_SamsungRec_07010 \
     lib_SoundAlive_SRC384_ver320 \
     lib_soundaliveresampler \
@@ -469,7 +460,6 @@ PRODUCT_PACKAGES += \
     libcirrusspkrprot_vendor \
     libcomprcapture_vendor \
     libdrc \
-    libdsd2pcm \
     libexthwplugin_vendor \
     libhdmiedid_vendor \
     libhdmipassthru_vendor \
