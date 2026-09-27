@@ -183,6 +183,7 @@ PRODUCT_PACKAGES += \
     libSecureUILib \
     libStDrvInt \
     libVkLayer_q3dtools \
+    lib_SoundBooster_ver1050 \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
