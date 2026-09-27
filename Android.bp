@@ -13089,8 +13089,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libsecril-client_vendor",
-    stem: "libsecril-client",
+    name: "libsecril-client",
     owner: "samsung",
     strip: {
         none: true,

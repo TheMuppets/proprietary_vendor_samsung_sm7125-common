@@ -486,7 +486,7 @@ PRODUCT_PACKAGES += \
     libreffeature \
     libril_sem \
     libsec-ril \
-    libsecril-client_vendor \
+    libsecril-client \
     libskeymaster4device \
     libvkmanager_vendor \
     unnhal-acc-adreno \
